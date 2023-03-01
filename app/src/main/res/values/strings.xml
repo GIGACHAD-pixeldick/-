@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CONTROL</string>
+    <string name="login">Login</string>
+    <string name="email_address">Email address</string>
+    <string name="create_account">Create account</string>
+    <string name="signin">SignIn</string>
+    <string name="plant_catalog">Plant Catalog</string>
+    <string name="popular">Popular</string>
+    <string name="all">All</string>
+    <string name="outdoor">Outdoor</string>
+    <string name="indoor">Indoor</string>
+    <string name="office">Office</string>
+    <string name="garden">Garden</string>
+    <string name="todo">TODO</string>
+    <string name="search">Search</string>
+    <string name="flowwow">FLOWWOW</string>
+    <string name="textview">TextView</string>
+    <string name="password">password</string>
+</resources>
