@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                         listInfPlant.add(ListPlant(I.title, I.price, I.room))
                     }
                     rec.adapter = Adapter(listInfPlant)
-                    rec.layoutManager = LinearLayoutManager(this@MainActivity)
+                    rec.layoutManager = LinearLayoutManager(this@MainActivity,LinearLayoutManager.HORIZONTAL, false)
                 }
             }
             /**

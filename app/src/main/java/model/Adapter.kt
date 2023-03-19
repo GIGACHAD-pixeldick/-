@@ -1,5 +1,6 @@
 package model
 
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,6 +19,14 @@ class Adapter(private var plants: List<ListPlant>) : RecyclerView.Adapter<Recycl
         holder.itemView.title.text=plants[position].title
         holder.itemView.room.text=plants[position].room
         holder.itemView.price.text=plants[position].price.toString()
+
+        if(position % 2 == 0){
+            holder.itemView.price.setTextColor(Color.RED)
+        }
+
+        else{
+            holder.itemView.price.setTextColor(Color.MAGENTA)
+        }
     }
 
     override fun getItemCount(): Int {
